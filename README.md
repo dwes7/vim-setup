@@ -4,7 +4,18 @@
 mkdir ~/.vim/bundle
 cd ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```    
+mkdir vimrc_repo
+cd vimrc_repo
+git clone git@github.com:dwes7/.vimrc.git
+cp .vimrc/.vimrc ~/.vimrc
+```
+
+Open vim and run:
+```
+:PlugInstall
+```
+
+Boom you got your default vim environment.
 
 
 ### Clone and Build CCLS from source
