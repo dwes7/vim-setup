@@ -1,3 +1,12 @@
+### Install Vundle
+
+```
+mkdir ~/.vim/bundle
+cd ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```    
+
+
 ### Clone and Build CCLS from source
 Link to clone and build instructions for CCLS
 [here|https://github.com/MaskRay/ccls/wiki/Build]
