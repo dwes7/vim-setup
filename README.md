@@ -12,7 +12,7 @@ cp .vimrc/.vimrc ~/.vimrc
 
 Open vim and run:
 ```
-:PlugInstall
+:PluginInstall
 ```
 
 Boom you got your default vim environment.
